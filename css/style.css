@@ -20,7 +20,7 @@ time, mark, audio, video {
 }
 nav{
 	position: fixed;
-	margin-left: 70%;
+	margin-left: 73%;
 	top:0;
 	left:0;
 	
@@ -63,7 +63,7 @@ nav ul li a:hover{
     margin:20% 5%;
     position: absolute;
 	font-size: 110px;
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Anton', cursive;
 
 }
 .page1 a{
@@ -82,13 +82,70 @@ nav ul li a:hover{
 	text-decoration: none;
 }
 .page2{
-	background:#e4d7d7;
-	height: 1000px;
+	background:#262626;
+	height: 350px;
 }
-.page2 h1{
-	margin: 10% 45%;
-	font-family: 'Amatic SC', cursive;
+.page2 div{
+	margin: auto;
+	padding: 20px;
+}
+.blackback{
+	background: #e4d7d7;
+	color:#262626;
+	font-family: 'Saira';
+	
+}
+.about{
+	font-family: 'Anton', cursive;
+	color: #e4d7d7;
 	font-size: 80px;
 	transition: all 0.5s;
+}
 
+.page3{
+	height: 600px;
+	width: 100%;
+	background: linear-gradient(rgba(38,38,38,0.7),rgba(38,38,38,0.7)),url(../img/page3.jpg) no-repeat 50% 50% fixed / cover;
+}
+.page3 h1{
+ 	font-family: 'Anton', cursive;
+ 	margin: auto;
+ 	padding-top: 3%;
+ 	padding-left: 35%;
+ 	font-size: 80px;
+ 	color:#e4d7d7;
+}
+.WORKS img{
+	height: 400px;
+	width: 300px;
+	margin: 25px 20px 10px 20px;
+	padding: 5px auto;
+
+}
+.tilt {
+	-webkit- transition: all 0.5s ease;
+	-moz- transition: all 0.5s ease;
+	-o- transition: all 0.5s ease;
+	-ms- transition: all 0.5s ease;
+		transition: all 0.5s ease;
+}
+.tilt:hover {
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	 		transform: rotate(-10deg);
+
+}
+.between{
+	background:#262626;
+	color: #e95b5b;
+	height: 180px;
+}
+.between h1{
+	font-family: 'Anton', cursive;
+	font-size: 80px;
+	margin: auto;
+	padding-top: 2%;
+	padding-left: 32%;
 }
